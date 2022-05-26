@@ -1,4 +1,4 @@
-# CoinedOne
+# CoinedOne Android Challenge
 This this challenge given by CoinedOne.
 
 Features I have used in this challenge are listed below:
