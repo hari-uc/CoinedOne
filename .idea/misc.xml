@@ -13,10 +13,12 @@
         <entry key="app/src/main/res/drawable/thumb.xml" value="0.181" />
         <entry key="app/src/main/res/font/sen.xml" value="0.3351851851851852" />
         <entry key="app/src/main/res/font/senfont.xml" value="0.3351851851851852" />
+        <entry key="app/src/main/res/layout/accessibility_service_config.xml" value="0.3177083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3177083333333333" />
         <entry key="app/src/main/res/layout/activity_mode.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/add_time.xml" value="0.3177083333333333" />
+        <entry key="app/src/main/res/layout/add_time.xml" value="0.3032069970845481" />
         <entry key="app/src/main/res/layout/edittime.xml" value="0.3177083333333333" />
+        <entry key="app/src/main/res/xml/accessibility_service_config.xml" value="0.3177083333333333" />
       </map>
     </option>
   </component>
