@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/addtiming"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/senbold"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:padding="20dp"
+            android:text="@string/add_timing"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/schedule_cancelbtn"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_baseline_cancel_24"
+            tools:layout_editor_absoluteX="371dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/from_time_btn_ed"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From"/>
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/from_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/senbold"
+            android:text="00 . 00"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/totime_btn_ed"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TO"/>
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/to_time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/senbold"
+            android:text="00 . 00"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/schedule_savebtn_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#2F80ED"
+        android:padding="20dp"
+        android:text="@string/save"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+
+</LinearLayout>

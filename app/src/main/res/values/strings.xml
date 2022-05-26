@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CoinedOne</string>
+    <string name="schedule">Schedule</string>
+    <string name="add_your_timing">Add your timing</string>
+    <string name="add_timing">Add Timing</string>
+    <string name="save">SAVE</string>
+</resources>
